@@ -1,0 +1,11 @@
+print(" d เป็นปีศาจ และ p เป็นนักบวช")
+l = ["p","p","p","d","d","d"]
+r =[]
+ship = ['','']
+x = str(input("รับค่าขึ้นเรือ : "))
+if x in l :
+    print("r : ", x)
+else:
+    print("invalid")
+    print("please try again")
+    
